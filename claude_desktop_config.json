@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+      "산불정보 시각화 MCP 서버": {
+        "command": "python",
+        "args": [
+          "C:/Users/user/Desktop/MCP/forest_fire_mcp_server.py"
+        ]
+      }
+    }
+  }
