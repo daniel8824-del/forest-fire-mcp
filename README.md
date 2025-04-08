@@ -1,5 +1,7 @@
 # 산불 정보 시각화 MCP 서버
 
+[![smithery badge](https://smithery.ai/badge/@daniel8824-del/forest-fire-mcp)](https://smithery.ai/server/@daniel8824-del/forest-fire-mcp)
+
 ## 소개
 이 프로젝트는 산불 발생 데이터를 수집, 분석하고 지도에 시각화하는 Python 기반 MCP 서버입니다. 
 사용자는 지역별 산불 발생 정보, 위험도 분석, 지도 시각화 등 다양한 기능을 이용할 수 있습니다.
@@ -19,6 +21,14 @@ MCP/
 _______________________________________________________________________________________
 
 ## 설치 요구사항
+
+### Installing via Smithery
+
+To install Forest Fire Visualization Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@daniel8824-del/forest-fire-mcp):
+
+```bash
+npx -y @smithery/cli install @daniel8824-del/forest-fire-mcp --client claude
+```
 
 ### Python 설치하기
 파이썬이 설치되어 있지 않은 경우 다음 단계를 따라 설치하세요:
