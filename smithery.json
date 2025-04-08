@@ -1,0 +1,47 @@
+{
+  "name": "Forest Fire Visualization MCP",
+  "description": "산불 발생 데이터를 수집, 분석하고 카카오맵에 시각화하는 MCP 서버입니다. 지역별 산불 발생 정보 조회, 위험도 분석, 실시간 지도 시각화 기능을 제공합니다.",
+  "repository": "https://github.com/daniel8824-del/forest-fire-mcp",
+  "version": "1.0.0",
+  "tools": [
+    {
+      "name": "get_forest_fire_data",
+      "description": "지역과 연도를 기준으로 산불 데이터를 조회합니다.",
+      "parameters": {
+        "province": "string",
+        "year": "integer"
+      },
+      "returns": "산불 발생 데이터 목록"
+    },
+    {
+      "name": "analyze_forest_fire_risk",
+      "description": "특정 지역의 산불 위험도를 분석합니다.",
+      "parameters": {
+        "province": "string",
+        "city": "string"
+      },
+      "returns": "위험도 분석 결과"
+    },
+    {
+      "name": "visualize_fire_locations",
+      "description": "산불 발생 위치를 카카오맵에 시각화합니다.",
+      "parameters": {
+        "province": "string",
+        "city": "string"
+      },
+      "returns": "지도 시각화 URL"
+    }
+  ],
+  "categories": [
+    "Data Visualization",
+    "Geographic Information",
+    "Risk Analysis"
+  ],
+  "tags": [
+    "forest-fire",
+    "kakao-map",
+    "visualization",
+    "korea",
+    "risk-analysis"
+  ]
+} 
